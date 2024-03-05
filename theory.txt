@@ -1,0 +1,56 @@
+CI/CD::Continous integration / continous deployment
+
+Maven:: is used to build the JAR file or the main executable
+->build triggers:
+poll SCM -- source code management like github, bitbucket
+
+->for maven install:
+docker container ls
+docker exec -it -u root container_id /bin/bash
+then
+apt-get update
+apt-get install maven
+
+pipeline statement
+pipeline agent -- like nodejs or jenkins should slave as run on
+pipeline stages
+
+Test stage
+stages recap and build
+build success and logs
+
+console output
+replay
+
+Multi Branch Pipeline
+
+Boolean parameter
+String parameter
+Dropdown selection parameters
+
+Variables
+Jenkins Specific Environment Variables
+
+Groovy
+Build Health
+Troubleshooting
+
+MultipleJenkinsfile
+DebuggingTrick
+
+If Statements
+Functions
+Variable scope
+
+Multiple lines In Bash Shell:
+-use three quotes like this 
+ sh """
+
+
+
+ """
+
+Job from a job"
+Pass parameters between jobs
+
+Plugins
