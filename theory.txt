@@ -13,6 +13,7 @@ apt-get install maven
 
 pipeline statement
 pipeline agent -- like nodejs or jenkins should slave as run on
+-typically a machine, or container, which connects to a Jenkins controller and executes tasks when directed by the controller.
 pipeline stages
 
 Test stage

@@ -1,0 +1,15 @@
+Create 1 redio button inly select 1 perameter.
+Number | Alpha
+ 
+List = selection
+number = 0 to 5
+ 
+List Alpha = selection
+Alphabet = a to e
+ 
+ 
+ 
+==== 
+ 
+you select raadion button of {  } 
+then you select List Number {   }  
